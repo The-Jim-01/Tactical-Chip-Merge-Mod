@@ -1,0 +1,28 @@
+﻿{
+    "version":  "1.0.1",
+    "win64":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64",
+    "modFolder":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\Mods\\RCRC_ChipMerge",
+    "modsPath":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\Mods\\mods.txt",
+    "originalModsExisted":  true,
+    "originalModsHash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "backupMods":  "C:\\Users\\jimpl\\OneDrive\\Documents\\Temp\\RoboCopRC_Mod\\Full Release Version\\Tactical_Chip_Merging_1.0.1\\Recovery\\mods.txt",
+    "installedModsHash":  "8427DC623F2B41CDEAA47916198529498C12F14D322EC23ADA6187C11072A92A",
+    "files":  [
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\Mods\\RCRC_ChipMerge\\Scripts\\main.lua",
+                      "hash":  "5DB00273DAC0C43C9FB2643326F3CEDCF1041366CAB89BD9D20E135D24ABE076"
+                  },
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\Mods\\RCRC_ChipMerge\\Scripts\\core.lua",
+                      "hash":  "EA5A792F0727969350BEA143842FB193F3CD3DD38D7F03EFD54CFC1EB8E33375"
+                  },
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\Mods\\RCRC_ChipMerge\\Scripts\\ui.lua",
+                      "hash":  "B7A3A457ACA389CBF88F4FB1E1FA056C812FDF3EDB79E3430CAAD47A2129C385"
+                  },
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\Mods\\RCRC_ChipMerge\\Scripts\\percentage.lua",
+                      "hash":  "8DF5B86E940A97DAE0CDDB8A204CD8CA68563B6F40E3A3B8AADECA8A7F3EB15D"
+                  }
+              ]
+}

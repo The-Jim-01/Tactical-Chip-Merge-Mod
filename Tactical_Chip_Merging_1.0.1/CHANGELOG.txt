@@ -1,0 +1,15 @@
+TACTICAL CHIP MERGING - 1.0.1 (2026-10-11)
+
+Installer coexistence update:
+- Accept an existing Mods folder during runtime setup; preserve its contents.
+- Reuse verified UE4SS 3.0.1 with compatible cache setting; do not replace it.
+- Preserve existing mods.txt bytes and append only the mod enable entry.
+- Retain other enabled/disabled entries, comments and UTF-8/UTF-16 encoding.
+- Create mods.txt when absent; no earlier mod versions required.
+- Refuse duplicate mod entries and incompatible runtime files without changes.
+- Restore original configuration on uninstall when unchanged since installation.
+  If edited afterward, preserve it and report the remaining entry for manual removal.
+- Do not claim ownership of reused runtime files; protect loaders used by other mods.
+
+Gameplay unchanged from 1.0.0 except version text. Installer coexistence does
+not imply compatibility with other mods that change merging, inventory or UI.

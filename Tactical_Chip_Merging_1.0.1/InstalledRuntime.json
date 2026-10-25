@@ -1,0 +1,22 @@
+﻿{
+    "version":  "3.0.1",
+    "win64":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64",
+    "files":  [
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\UE4SS.dll",
+                      "hash":  "8AC18FBFFC1EF96B0662D4A2D537B3F224C26D65CAABA7989A9404C566102B26"
+                  },
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\dwmapi.dll",
+                      "hash":  "CE596412BEFA68C30B7F88F65BEB77D9BDAD55E9B96A276A5A9CF690C63F24BB"
+                  },
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\UE4SS-settings.ini",
+                      "hash":  "FC5239399B03D107DA88CDA11301E24A58FD32D19042562F84FA89DDDF781026"
+                  },
+                  {
+                      "path":  "D:\\GOG Galaxy\\Games\\RoboCop Rogue City\\Game\\Binaries\\Win64\\Mods\\mods.txt",
+                      "hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  }
+              ]
+}

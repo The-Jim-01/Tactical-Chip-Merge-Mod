@@ -1,0 +1,29 @@
+TACTICAL CHIP MERGING 1.0.1 - VALIDATION
+
+Target tested: GOG 1.0.2.1, Windows x64, UE4SS 3.0.1, no other mods.
+Latest report: RCRC_ChipMerge_Report_20261011-100527_4ebdbe9e.zip.
+RC4 session starting 2026-10-11 09:57:41 has four committed merges; selected
+and result side masks match, and actual percentages lie within preview ranges.
+No new mod errors. Tester reports several merges and two PCB switches without
+problems, including the formerly intermittent wrong pre-Accept result font.
+Earlier tests confirmed PCB stats and merged chip checkpoint/save/reload.
+
+core.lua, ui.lua and percentage.lua are byte-identical to RC4. main.lua differs
+only in its version text. Gameplay retained; 1.0.1 runtime setup and installer now support coexistence. No keyboard bindings or beta inventory generator.
+
+Local mocked checks passed for conditional result presentation restoration,
+no repeated stable reinitialization/repaint, replaced containers, stale UI,
+range refresh without RNG draws, connector geometry/restrictions, native roll
+preservation, deferred repair/rollback and Accept cleanup. Installer ownership,
+changed-file refusal, configuration restore and update/removal verified.
+
+No first game launch with a fresh downloaded runtime was performed locally;
+in-game tests used an established verified loader. Steam, other game builds and
+other mods untested. Historical crashes are not proven fully fixed. This archive
+is a release deliverable; no public upload/publication has been performed.
+
+1.0.1 installer tests: existing mod sentinel files retained; UTF-8 and UTF-16
+configs preserved byte-for-byte before our appended entry and restored exactly
+on uninstall; missing mods.txt supported; native fresh setup into preexisting
+Mods and reuse of verified runtime supported. Loader removal refuses other mod
+files. Duplicate entries and incompatible runtime files are not overwritten.
